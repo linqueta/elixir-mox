@@ -22,7 +22,8 @@ defmodule CorreiosApi.MixProject do
   def deps do
     [
       {:httpoison, "~> 1.8"},
-      {:jason, "~> 1.3"}
+      {:jason, "~> 1.3"},
+      {:mox, "~> 1.0", only: :test}
     ]
   end
 end
